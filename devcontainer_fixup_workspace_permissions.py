@@ -4,6 +4,9 @@
 
 This script should be run as root. Since root privileges are too powerful,
 it is executed using only OS packages without going through uv.
+
+The latest version of this file can be downloaded from
+https://github.com/saturday06/devcontainer-fixup-workspace-permissions/blob/main/devcontainer_fixup_workspace_permissions.py
 """
 
 import functools
