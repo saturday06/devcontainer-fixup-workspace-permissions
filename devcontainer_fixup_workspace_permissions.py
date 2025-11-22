@@ -31,10 +31,6 @@ else:
 logger = logging.getLogger(__name__)
 
 
-if sys.platform == "win32":
-    raise NotImplementedError
-
-
 def print_path_walk_error(warning_messages: list[str], os_error: OSError) -> None:
     warning_messages.append(f"Failed to walk directories: {os_error}")
 
@@ -193,4 +189,6 @@ def main() -> None:
 
 
 if __name__ == "__main__":
+    if sys.platform == "win32":
+        raise NotImplementedError
     main()
