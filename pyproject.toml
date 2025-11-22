@@ -77,5 +77,6 @@ ignore = [
 max-complexity = 20
 
 [tool.ruff.lint.pylint]
+max-args = 10
 max-branches = 20
 max-statements = 80
