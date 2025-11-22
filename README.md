@@ -1,0 +1,3 @@
+# devcontainer_fixup_workspace_permissions.py
+
+デブコンで開いたgitレポジトリに存在するファイルやフォルダがroot所有者になっていたりパーミッションが777になっていたりするので、それをいい感じに戻すスクリプトです。
